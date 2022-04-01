@@ -64,6 +64,10 @@ p{
 	text-align: center;
 }
 
+h1.hidden, p.hidden{
+	display: none;
+}
+
 a{
 	font-size: 12rpx;
 	text-decoration: none;
