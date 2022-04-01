@@ -188,6 +188,10 @@ p span{
 	opacity: 1;
 }
 
+.item:active, .item:focus{
+	transform: scale(0.95);
+}
+
 .item a{
 	display: block;
 	width: 100%;
