@@ -26,6 +26,10 @@ body{
 
 }
 
+.hidden{
+	display: none;
+}
+
 ::-moz-selection { /* Code for Firefox */
   color: #FFFFFF;
   background: #2BD867;
@@ -41,8 +45,8 @@ body{
 /********************/
 
 h1{
-	line-height: 1.2;
-	font-size: 2.4rem;
+	line-height: 1.4;
+	font-size: 1.4rem;
 	text-align: center;
 	font-weight: 300;
 	margin: 10% auto;
@@ -50,7 +54,7 @@ h1{
 
 p{
 	line-height: 1.5;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -196,7 +200,7 @@ p span{
 .container{
 	max-width: 600px;
 	margin: 0 auto;
-	padding: 32px;
+	padding: 0;
 }
 
 .container img{
@@ -253,6 +257,25 @@ li{
 }
 
 @media (min-width: 640px) {
+	h1{
+		line-height: 1.2;
+		font-size: 2.4rem;
+		text-align: center;
+		font-weight: 300;
+		margin: 10% auto;
+	}
+
+	p{
+		line-height: 1.5;
+		font-size: 1.2rem;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		display: block;
+		width: 100%;
+		color: #757575;
+		text-align: center;
+	}
 	.wrapper{
 		/*width: 100%;*/
 		/*width: 70vw;*/
@@ -298,6 +321,12 @@ li{
 	  	grid-gap: 80px;
 	  	grid-auto-flow: dense;
 	  	overflow: hidden;*/
+	}
+
+	.container{
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 32px;
 	}
 
 	footer p{
